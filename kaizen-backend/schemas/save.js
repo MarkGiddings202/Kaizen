@@ -1,6 +1,6 @@
 export default {
-    name : 'comment',
-    title: 'Comment',
+    name : 'save',
+    title: 'Saved',
     document: 'document', 
     feild: [
         {
@@ -9,8 +9,8 @@ export default {
             type : "postedBy"
         },
         {
-            name: "comment",
-            title: "Comment",
+            name: "userID",
+            title: "UserID",
             type : "string"
         },
     ]
